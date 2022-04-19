@@ -1,0 +1,153 @@
+.image-wrap {
+  height: 300px;
+  border-bottom: 5px solid #073653;
+  margin-bottom: 5%;
+  background-position: left;
+  background-size: cover;
+  background-image: url(./../../assets/images/bg.jpg);
+  background-blend-mode: soft-light;
+}
+
+.login-logo {
+  width: 50%;
+  margin: 20px 0px;
+}
+
+.login h2 {
+  margin-bottom: 20px;
+}
+
+.border {
+  font-size: 14px;
+  border-color: #eceeef;
+}
+
+.right {
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+.media {
+  min-width: 482px;
+}
+
+.nav-side-menu {
+  margin-top: 54px;
+  font-size: 15.3px;
+  width: 224px;
+}
+
+.welcome {
+  margin-top: 115px;
+  position: fixed;
+  height: 80px;
+  background-color: #ffece5;
+  color: #ff631f;
+  opacity: 0.9;
+  text-align: center;
+  z-index: -1;
+}
+
+.toggle-btn {
+  margin-top: 30px;
+}
+
+.affix {
+  margin: -15px;
+}
+
+.textMargin {
+  margin-left: 220px;
+}
+
+.tableMargin {
+  margin-top: 210px;
+  margin-left: 350px;
+  padding: 10px;
+}
+
+.width {
+  width: 1000px !important;
+  position: fixed;
+}
+
+table-hover :hover {
+  background-color: #211f21;
+  color: white;
+  transition: 0.3s;
+}
+
+.formMargin {
+  margin-top: 30px;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.navbar-toggler-right {
+  position: static;
+  right: 1rem;
+}
+
+.navbar-wrap {
+  margin: 0 -20px 0 -20px;
+}
+
+.dropdown-item > a {
+  color: #211f21;
+}
+
+.grp-style {
+  padding: 6px 0px;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  &:focus,
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.errorAlignment {
+  border-radius: 0 0 4px 4px;
+  padding: 2px 5px 4px 5px;
+}
+
+.validateText {
+  margin-top: -4px;
+  text-align: center;
+}
+
+.custom-color-red {
+  color: red;
+}
+
+.notes {
+  border: 1px solid rgba(255, 90, 10, 0.87);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thead-inverse th {
+  color: #fff;
+  background-color: #302d30;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: lighter;
+}
+
+.card-block {
+  h2 {
+    font-weight: lighter;
+  }
+}
